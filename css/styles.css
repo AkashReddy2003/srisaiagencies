@@ -1,0 +1,150 @@
+#home{
+  background-color: grey;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+h2{
+  font-weight: bold;
+}
+p{
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+.home{
+  height:500px;
+  width: auto;
+  animation-name: home;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+.welcome{
+  padding-top: 150px;
+}
+
+
+.container-fluid{
+  padding: 3% 10%;
+
+
+}
+.download{
+  margin: 5% 3% 5% 0;
+}
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 10px;
+}
+.nav-link:hover{
+  color: white;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+#products{
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 3% 10%;
+
+}
+.product{
+  width:40%;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.product:hover{
+  animation-name: product;
+  animation-duration: 3s;
+
+
+}
+.prodtext{
+  font-family: "Montserrat-bold";
+}
+.prodtext:hover{
+  color: grey;
+
+}
+@keyframes product {
+  0%{width:40%;}
+  50%{width:50%;}
+  100%{width:40%;}
+
+}
+
+@keyframes home {
+  0%{transform: rotate(0deg);}
+  25%{transform: rotate(20deg);}
+  50%{transform: rotate(0deg);}
+  75%{transform: rotate(-20deg);}
+  100%{transform: rotate(0deg);}
+
+}
+
+#reviews{
+  background-color: grey;
+  text-align: center;
+}
+.re{
+  width:30%;
+  border-radius: 30%;
+  height: 30%;
+
+}
+.retext{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  width:50%;
+  margin: auto;
+}
+
+.carousel-item{
+  padding: 3% 10%;
+}
+#branches{
+  padding: 3% 10%;
+  text-align: center;
+}
+.bhimg{
+  width:100%;
+  border-radius: 30%;
+  height:140px;
+}
+#order{
+  background-color: grey;
+  padding: 3% 10%;
+
+}
+.orhd{
+  text-align: center;
+}
+.form-label{
+  padding-bottom: 10px;
+  color: white;
+}
+.form-control{
+  margin-bottom: 10px;
+}
+.submit{
+  margin-top: 30px;
+}
+#contact{
+  text-align: center;
+  padding: 7% 15% 0;
+}
+.sic{
+  padding-left: 40px;
+}
+.sli{
+  padding-left: 20px;
+}
+.devoloper{
+  float: right;
+}
